@@ -6,6 +6,7 @@ Homebrew tap for [JustCode](https://github.com/kingeke/justcode) — a lean, tra
 
 ```sh
 brew tap kingeke/justcode
+brew trust kingeke/justcode   # third-party taps are untrusted by default
 brew install justcode
 ```
 
