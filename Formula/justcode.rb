@@ -1,24 +1,24 @@
 class Justcode < Formula
   desc "Interactive terminal coding assistant CLI"
   homepage "https://github.com/kingeke/justcode"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kingeke/justcode/releases/download/v0.1.8/justcode-darwin-arm64"
-      sha256 "29aaac8cec29fa19a8f8247ba391ddf45caa7ed6a8ed9ef771bf63d433d10ab8"
+      url "https://github.com/kingeke/justcode/releases/download/v0.1.9/justcode-darwin-arm64"
+      sha256 "2447655c0bf281cd07c6d3a5f19a030533f88cb0ebf7ba30e652de564c32b044"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kingeke/justcode/releases/download/v0.1.8/justcode-linux-arm64"
-      sha256 "46a3a4c072f51da159d4ca37d26017e35c9265448e9f587a9612652cf07e3984"
+      url "https://github.com/kingeke/justcode/releases/download/v0.1.9/justcode-linux-arm64"
+      sha256 "bf71cea667b67214ecf4654ffd1ecf25a2758fe36ca6a367dad580b2fd65020f"
     end
     on_intel do
-      url "https://github.com/kingeke/justcode/releases/download/v0.1.8/justcode-linux-x64"
-      sha256 "fd873043f22801706ddc594aec784af4c95db4e36f173f330d2e3355ebf160bb"
+      url "https://github.com/kingeke/justcode/releases/download/v0.1.9/justcode-linux-x64"
+      sha256 "88d410cce45304039e4cd71da545176e64e7a357b23cf8bc0c297184f843df35"
     end
   end
 
